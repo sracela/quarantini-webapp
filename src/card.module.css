@@ -4,12 +4,19 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background: white;
+    justify-content: flex-start;
+    background: rgba(67, 219, 230, 0.4);
     align-items: center;
-    min-width: 50%;
+    width: 40vh;
+    height: 60vh;
+    overflow: hidden;
 }
-
-.image{
-    border-radius: 5%;
+.imageDiv{
+    overflow: hidden;
+}
+.textDiv{
+    overflow: hidden;
+    margin: 10px;
+    text-align: left;
+    align-items: center;
 }

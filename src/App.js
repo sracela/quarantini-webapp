@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import Card from "./Card"
+import React from 'react';
+import { useEffect, useState } from 'react';
+import Game from "./Game";
 //import logo from './logo.svg';
 import './App.css';
+
 
 const App = () => {
 
@@ -19,15 +21,16 @@ const App = () => {
     setCards(data);
   }
 
-
   return(
     <div className="App">
     <h1>Let's play Quarantini!</h1>
-    <div className="cards">
-    {cards.map(card => (
+    
+    <Game cards={cards}></Game>
+
+    {/* {cards.map(card => (
       <Card key={card.id} description={card.description} image_url={card.image_url}></Card>
-    ))};
-    </div>
+    ))}; */}
+    {/* <Card key={card.id} description={card.description} image_url={card.image_url}></Card> */}
 
     </div>
   );
