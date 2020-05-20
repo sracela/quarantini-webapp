@@ -23,15 +23,8 @@ const App = () => {
 
   return(
     <div className="App">
-    <h1>Let's play Quarantini!</h1>
-    
-    <Game cards={cards}></Game>
-
-    {/* {cards.map(card => (
-      <Card key={card.id} description={card.description} image_url={card.image_url}></Card>
-    ))}; */}
-    {/* <Card key={card.id} description={card.description} image_url={card.image_url}></Card> */}
-
+      <h1>Let's play Quarantini!</h1>
+      <div><Game cards={cards}></Game></div>
     </div>
   );
 }
