@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
 ## Demo (work still in progress)
-![alt text](https://github.com/sracela/quarantini-webapp/blob/master/src/React_App.gif "Demo")
+<img src="https://github.com/sracela/quarantini-webapp/blob/master/src/React_App.gif" alt="drawing" width="1080"/>
 
 ## Available Scripts
 
