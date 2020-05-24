@@ -1,8 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import Game from "./Game";
+import Game from "components/Game";
 //import logo from './logo.svg';
-import './App.css';
+import 'styles/App.css';
 
 
 const App = () => {

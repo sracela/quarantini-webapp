@@ -1,12 +1,11 @@
 import React from 'react';
-import Card from "./Card";
+import Card from "components/Card";
 
 import {
-  MorphIcon,
-  PlusButton
+  MorphIcon
 } from 'react-svg-buttons';
 import { TinderLikeCard } from 'react-stack-cards';
-import './Game.css'
+import 'styles/Game.css';
 
 class Game extends React.Component {
   constructor(props) {

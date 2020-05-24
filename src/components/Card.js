@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './card.module.css';
-import last_image from "./covid1.jpg";
+import style from 'styles/card.module.css';
+import last_image from "images/covid1.jpg";
 
 
 const Card = ({description, image_url, onTest=0, last_id=0, value=0}) => {
