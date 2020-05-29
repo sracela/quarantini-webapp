@@ -1,8 +1,10 @@
 import React from 'react';
-import Game from "components/Game";
+import Game from "screens/Game";
+import Howto from "screens/Howto";
 import Nav from "components/Nav";
-import About from "components/About";
+import About from "screens/About";
 import 'styles/App.css';
+import { GameProvider } from 'components/GameContext';
 
 // routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -20,9 +22,9 @@ const App = () => {
       <Nav />
       <Switch>
         <Route path="/" exact component={Home}/>
+        <Route path="/howto" exact component={Howto}/>
         <Route path="/about" component= {About}/>
-        <Route path="/game" component={Game}/>
-        {/* <Route path="/game/:id" /> */}
+        <GameProvider><Route path="/game" component={Game}/></GameProvider>
       </Switch>
 
     </div>
@@ -33,7 +35,8 @@ const App = () => {
 
 const Home = () => (
   <div>
-    <h1>Home Page</h1>
+    <h1>Stay Safe While Having Fun</h1>
+    <h2>Together we will get through this, so we might as well get drunk.</h2>
   </div>
 );
 

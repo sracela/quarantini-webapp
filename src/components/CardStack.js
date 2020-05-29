@@ -1,7 +1,5 @@
 import React from 'react';
 import Card from "components/Card";
-
-
 import {
   MorphIcon
 } from 'react-svg-buttons';
@@ -12,7 +10,6 @@ class CardStack extends React.Component {
   constructor(props) {
     super(props)
     this.Tinder = null
-    
   }
 
   onTinderSwipe() {
@@ -33,8 +30,8 @@ class CardStack extends React.Component {
             colors={images}
             width="400"
             height="450"
-            direction="swipeCornerDownRight"
-            duration={100}
+            direction="swipeLeft"
+            duration={150}
             ref={(node) => this.Tinder = node}
             className="tinder">
             {this.props.cards.map(card =>

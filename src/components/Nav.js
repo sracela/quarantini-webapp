@@ -1,32 +1,39 @@
 import React from 'react';
-import 'styles/App.css';
+import 'styles/Nav.css';
 import logo from 'images/quarantini_logo.jpg';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { findByLabelText } from '@testing-library/react';
 
 //when we Link to something we get access to something in our props like this:
 //function itemDetail({ match }) { useEffect(); } and then... match.params.id
 function Nav () {
 
-    const navStyle = {
-        color: 'black',
-        textDecoration: 'none'
-    }
-
   return(
-    <nav>
-        <Link style={navStyle} to='/'>
-        <img src={logo} className="App-logo" alt="logo" />
-        </Link>
-        <h1>Let's play Quarantini!</h1>
-        <ul className="nav-links">
-            <Link style={navStyle} to='/about'>
-                <li>About</li>
-            </Link>
-            <Link style={navStyle} to='/game'>
-                <li>Game</li>
-            </Link>
-            {/* <Link to={`/game'/${item.id}`}>{item.name}</Link> */}
-        </ul>
+    <nav className="Nav">
+        <div className="Nav-logo">
+            <NavLink className="App-logo" to='/'>
+                <img src={logo} alt="logo" />
+            </NavLink>
+        </div>
+        <div className="Nav-title">
+            <h1>Quarantini</h1>
+        </div>
+        <div className="Nav-links">
+            <ul className="nav-links">
+                <NavLink exact activeClassName="selected" className="Link" to='/'>
+                    <li>Home</li>
+                </NavLink>
+                <NavLink activeClassName="selected" className="Link" to='/howto'>
+                    <li>How to play</li>
+                </NavLink>
+                <NavLink activeClassName="selected" className="Link" to='/about'>
+                    <li>About</li>
+                </NavLink>
+                <NavLink activeClassName="selected-main" className="Link main" to='/game'>
+                    <li>Play!</li>
+                </NavLink>
+            </ul>
+        </div>
     </nav>
   );
 }

@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useEffect, useState } from 'react';
 
 import 'styles/App.css';
-import CardStack from 'CardStack';
+import CardStack from 'components/CardStack';
+import { GameContext } from 'components/GameContext';
 
 
 function Game(){
   const cardReq = "http://sracela.pythonanywhere.com/cards/";
 
-  //create a state to put 'cards' in there
 
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useContext(GameContext);
 
   useEffect(() => {
     getCards();
@@ -24,7 +24,7 @@ function Game(){
 
   return(
     <div>
-      <h1>Game page</h1>
+      <h1>Let's play Quarantini!</h1>
         <CardStack cards={cards}></CardStack>
     </div>
   );

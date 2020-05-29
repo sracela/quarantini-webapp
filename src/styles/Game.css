@@ -32,6 +32,7 @@ button{
     background-color:transparent;
     color: transparent;
     margin-bottom: 5px;
+    box-shadow: 0px 5px 20px gray;
 }
 
 button:hover {
@@ -44,4 +45,5 @@ button:active {
     background-color: rgba(42, 161, 161, 0.623);
     /* box-shadow: 0 1px rgb(136, 135, 135); */
     transform: translateY(1px);
+    box-shadow: 0px 0px 0px gray;
   }
