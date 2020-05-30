@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import Game from "screens/Game";
 import Howto from "screens/Howto";
 import Nav from "components/Nav";
 import About from "screens/About";
 import 'styles/App.css';
-import { GameProvider } from 'components/GameContext';
+import { GameContext } from 'components/GameContext';
 
 // routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -12,11 +12,25 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
 
+  const cardReq = "http://sracela.pythonanywhere.com/cards/";
+
+  const [cards, setCards, , setShow] = useContext(GameContext);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch(cardReq).catch(err => console.error(err));
+      const data = await response.json().catch(err => console.error(err));
+      setCards(data.slice(0, 5));
+      setShow(true);
+    };
+
+    fetchData();
+    console.log(`loaded cards: ${cards}`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+
   return(
-    //Para handle routing, wrapp todos los components que necesitan routing en Router
-    //Route renders components based on the URL
-    //Switch kind of stops the whole process of going through all of these routes as soon as
-    //it goes to one and it matches the URL and only render that component
     <Router>
     <div className="App">
       <Nav />
@@ -24,9 +38,8 @@ const App = () => {
         <Route path="/" exact component={Home}/>
         <Route path="/howto" exact component={Howto}/>
         <Route path="/about" component= {About}/>
-        <GameProvider><Route path="/game" component={Game}/></GameProvider>
+        <Route path="/game" component={Game}/>
       </Switch>
-
     </div>
     </Router>
 

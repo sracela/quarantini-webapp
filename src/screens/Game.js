@@ -1,31 +1,23 @@
 import React, { useContext } from 'react';
-import { useEffect, useState } from 'react';
-
 import 'styles/App.css';
 import CardStack from 'components/CardStack';
 import { GameContext } from 'components/GameContext';
+import Card from "components/Card";
+import last_image from "images/covid1.jpg";
 
 
 function Game(){
-  const cardReq = "http://sracela.pythonanywhere.com/cards/";
+  const loading = "Loading cards";
 
-
-  const [cards, setCards] = useContext(GameContext);
-
-  useEffect(() => {
-    getCards();
-  }, []);
-
-  const getCards = async () => {
-    const response = await fetch(cardReq);
-    const data = await response.json();
-    setCards(data);
-  }
+  const [, , show, , , ] = useContext(GameContext);
 
   return(
     <div>
       <h1>Let's play Quarantini!</h1>
-        <CardStack cards={cards}></CardStack>
+        {show ? <CardStack /> : <Card key="loading"
+          description={loading}
+          image_url={last_image}
+          />}
     </div>
   );
 }

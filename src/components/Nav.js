@@ -2,7 +2,6 @@ import React from 'react';
 import 'styles/Nav.css';
 import logo from 'images/quarantini_logo.jpg';
 import { NavLink } from 'react-router-dom';
-import { findByLabelText } from '@testing-library/react';
 
 //when we Link to something we get access to something in our props like this:
 //function itemDetail({ match }) { useEffect(); } and then... match.params.id
