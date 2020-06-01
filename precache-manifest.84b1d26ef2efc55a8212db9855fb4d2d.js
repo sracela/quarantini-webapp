@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b3616f72a3661e2488b9e88f4b3bad8",
+    "revision": "998ee109a1ae767de13f22868e7d8030",
     "url": "/quarantini-webapp/index.html"
   },
   {
-    "revision": "0ab14f41711cfa68a02c",
+    "revision": "9e0c6d047a211aa2f372",
     "url": "/quarantini-webapp/static/css/main.c0698a93.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ab14f41711cfa68a02c",
-    "url": "/quarantini-webapp/static/js/main.f87f8ba8.chunk.js"
+    "revision": "9e0c6d047a211aa2f372",
+    "url": "/quarantini-webapp/static/js/main.eab178d7.chunk.js"
   },
   {
     "revision": "2e8a3d54302f9ab0c3cd",
