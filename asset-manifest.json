@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/quarantini-webapp/static/css/main.c0698a93.chunk.css",
+    "main.js": "/quarantini-webapp/static/js/main.85292aee.chunk.js",
+    "main.js.map": "/quarantini-webapp/static/js/main.85292aee.chunk.js.map",
+    "runtime-main.js": "/quarantini-webapp/static/js/runtime-main.4493483c.js",
+    "runtime-main.js.map": "/quarantini-webapp/static/js/runtime-main.4493483c.js.map",
+    "static/js/2.4d2527ce.chunk.js": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js",
+    "static/js/2.4d2527ce.chunk.js.map": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js.map",
+    "index.html": "/quarantini-webapp/index.html",
+    "precache-manifest.7837a09ea1dbcc8ca0287f096718edea.js": "/quarantini-webapp/precache-manifest.7837a09ea1dbcc8ca0287f096718edea.js",
+    "service-worker.js": "/quarantini-webapp/service-worker.js",
+    "static/css/main.c0698a93.chunk.css.map": "/quarantini-webapp/static/css/main.c0698a93.chunk.css.map",
+    "static/js/2.4d2527ce.chunk.js.LICENSE.txt": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js.LICENSE.txt",
+    "static/media/1howto.jpg": "/quarantini-webapp/static/media/1howto.f33a2f8d.jpg",
+    "static/media/2howto.jpg": "/quarantini-webapp/static/media/2howto.5a12f096.jpg",
+    "static/media/3howto.jpg": "/quarantini-webapp/static/media/3howto.fd61da32.jpg",
+    "static/media/covid1.jpg": "/quarantini-webapp/static/media/covid1.d26653e3.jpg",
+    "static/media/quarantini_logo.jpg": "/quarantini-webapp/static/media/quarantini_logo.18611904.jpg",
+    "static/media/sara.jpeg": "/quarantini-webapp/static/media/sara.6bb4245c.jpeg",
+    "static/media/vic.jpeg": "/quarantini-webapp/static/media/vic.41a05dbd.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4493483c.js",
+    "static/js/2.4d2527ce.chunk.js",
+    "static/css/main.c0698a93.chunk.css",
+    "static/js/main.85292aee.chunk.js"
+  ]
+}
