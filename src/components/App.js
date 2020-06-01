@@ -20,7 +20,8 @@ const App = () => {
     const fetchData = async () => {
       const response = await fetch(cardReq).catch(err => console.error(err));
       const data = await response.json().catch(err => console.error(err));
-      setCards(data.slice(0, 5));
+      //setCards(data.slice(0, 5));
+      setCards(data);
       setShow(true);
     };
 
@@ -47,10 +48,23 @@ const App = () => {
 }
 
 const Home = () => (
-  <div>
-    <h1>Stay Safe While Having Fun</h1>
-    <h2>Together we will get through this, so we might as well get drunk.</h2>
+
+  <div className="container">
+    <div className="header">
+      <h1>Stay Safe While Having Fun</h1>
+    </div>
+    <div className="item2">
+      <h2>Together we will get through this, so we might as well get drunk.</h2>
+    </div>
+    <div className="item3">
+    </div>
+    <div className="item4">
+    </div>
+    <div className="item5">
+    </div>
   </div>
+
+
 );
 
 export default App;
