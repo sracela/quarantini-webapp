@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quarantini-webapp/static/css/main.c0698a93.chunk.css",
-    "main.js": "/quarantini-webapp/static/js/main.eab178d7.chunk.js",
-    "main.js.map": "/quarantini-webapp/static/js/main.eab178d7.chunk.js.map",
+    "main.js": "/quarantini-webapp/static/js/main.ccb6e536.chunk.js",
+    "main.js.map": "/quarantini-webapp/static/js/main.ccb6e536.chunk.js.map",
     "runtime-main.js": "/quarantini-webapp/static/js/runtime-main.4493483c.js",
     "runtime-main.js.map": "/quarantini-webapp/static/js/runtime-main.4493483c.js.map",
     "static/js/2.4d2527ce.chunk.js": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js",
     "static/js/2.4d2527ce.chunk.js.map": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js.map",
     "index.html": "/quarantini-webapp/index.html",
-    "precache-manifest.84b1d26ef2efc55a8212db9855fb4d2d.js": "/quarantini-webapp/precache-manifest.84b1d26ef2efc55a8212db9855fb4d2d.js",
+    "precache-manifest.043ab16e5856f948fa8470d32024f59d.js": "/quarantini-webapp/precache-manifest.043ab16e5856f948fa8470d32024f59d.js",
     "service-worker.js": "/quarantini-webapp/service-worker.js",
     "static/css/main.c0698a93.chunk.css.map": "/quarantini-webapp/static/css/main.c0698a93.chunk.css.map",
     "static/js/2.4d2527ce.chunk.js.LICENSE.txt": "/quarantini-webapp/static/js/2.4d2527ce.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.4493483c.js",
     "static/js/2.4d2527ce.chunk.js",
     "static/css/main.c0698a93.chunk.css",
-    "static/js/main.eab178d7.chunk.js"
+    "static/js/main.ccb6e536.chunk.js"
   ]
 }
