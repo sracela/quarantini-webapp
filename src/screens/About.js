@@ -6,8 +6,8 @@ import Card from "components/Card";
 
 
 function About () {
-  const Victoria = "Studies: \nJob: \nMail: \nLinkedin: \nSocial Media:";
-  const Sara = "Studies: Telecom Engineering, Master in Computer Vision\nJob: Junior Sofware Engineer \nMail: saracelalfonso@gmail.com \nLinkedin: https://www.linkedin.com/in/sara-cela-alfonso-9a1001118/ \nSocial Media: https://github.com/sracela - https://twitter.com/SaraCela";
+  const Victoria = "Studies: BS in marketing and management \nJob: Student";
+  const Sara = "Studies: Telecom Engineering, Master in Computer Vision\nJob: Junior Sofware Engineer \nLinkedin: https://www.linkedin.com/in/sara-cela-alfonso-9a1001118/ \nSocial Media: https://github.com/sracela - https://twitter.com/SaraCela";
 
   return(
     
