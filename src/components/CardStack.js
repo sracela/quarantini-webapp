@@ -41,7 +41,7 @@ const CardStack = () => {
              {cards.map((card, i, arr) => <Card key={card.id} description={card.description} image_url={card.image_url} />
              )}
         </TinderLikeCard>
-        <div>
+        <div className="button-cards">
         <button onClick={onTinderSwipe}>
           <MorphIcon
             type="check"

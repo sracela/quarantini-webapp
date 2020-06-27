@@ -11,15 +11,12 @@ function Game(){
 
   const [, , show, , , ] = useContext(GameContext);
   return(
-    <div className="container">
-    <div className="header">
+    <div>
+    <section>
       <h1>Let's play Quarantini!</h1>
-    </div>
-    <div className="item2">
-      <h2>Together we will get through this, so we might as well get drunk.</h2>
-    </div>
-    <div className="item">
-    </div>
+        {/* <h2>Together we will get through this, so we might as well get drunk.</h2> */}
+    </section>
+    <div className="container">
     <div className="wrapper">
       {show ? <CardStack /> : 
             <Card key="loading"
@@ -27,8 +24,7 @@ function Game(){
           image_url={last_image}
           />}
     </div>
-    <div className="item">
-    </div>
+  </div>
   </div>
   );
 }

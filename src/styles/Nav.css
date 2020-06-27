@@ -21,7 +21,7 @@ header nav ul {
 
 header nav ul li {
     float:left;
-    
+    margin-top: 10px;
 }
 
 header nav ul li a {

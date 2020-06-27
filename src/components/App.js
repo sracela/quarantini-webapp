@@ -5,6 +5,8 @@ import Nav from "components/Nav";
 import About from "screens/About";
 import 'styles/App.css';
 import { GameContext } from 'components/GameContext';
+import Card from "components/Card";
+import last_image from "images/covid1.jpg";
 
 // routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -48,20 +50,19 @@ const App = () => {
 }
 
 const Home = () => (
-
-  <div className="container">
-    <div className="header">
+  <div>
+  <section>
       <h1>Stay Safe While Having Fun</h1>
-    </div>
-    <div className="item2">
       <h2>Together we will get through this, so we might as well get drunk.</h2>
+  </section>
+  <div className="container">
+  <div className="wrapper">
+        <Card key="loading"
+      description={"To start you have to press PLAY! in the Navigation bar. Don't be shy!"}
+      image_url={last_image}
+      />
     </div>
-    <div className="item3">
-    </div>
-    <div className="item4">
-    </div>
-    <div className="item5">
-    </div>
+  </div>
   </div>
 
 

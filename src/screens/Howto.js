@@ -11,34 +11,34 @@ function Howto() {
   const howto2 = "If you’re playing online (recommended social distancing) screen share using Zoom / Facetime / Hangout or any video chatting app.";
   const howto3 = "If you lose, you drink!.";
 
-  return(
-    
-  <div className="container">
-  <div className="header">
-    <h1>How to play</h1>
-  </div>
-  <div className="item2">
-    <h2>Together we will get through this, so we might as well get drunk.</h2>
-  </div>
-  <div className="item3">
+  return (
+    <div>
+    <section>
+        <h1>How to play</h1>
+        {/* <h2>Together we will get through this, so we might as well get drunk.</h2> */}
+    </section>
+
+    <div className="container">
+      <div className="item1">
         <Card key="loading"
           description={howto1}
           image_url={iihowto}
-          />
-  </div>
-  <div className="item4">
-  <Card key="loading"
+        />
+      </div>
+      <div className="item2">
+        <Card key="loading"
           description={howto2}
           image_url={ihowto}
-          />
-  </div>
-  <div className="item5">
+        />
+      </div>
+      <div className="item3">
         <Card key="loading"
           description={howto3}
           image_url={iiihowto}
-          />
-  </div>
-</div>
+        />
+      </div>
+    </div>
+    </div>
   );
 }
 
