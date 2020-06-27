@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d565183c.chunk.css",
+    "main.js": "/static/js/main.e0153ded.chunk.js",
+    "main.js.map": "/static/js/main.e0153ded.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5dc100b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5dc100b8.js.map",
+    "static/js/2.01737b90.chunk.js": "/static/js/2.01737b90.chunk.js",
+    "static/js/2.01737b90.chunk.js.map": "/static/js/2.01737b90.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c0e4351831552bcb83e5e548486daabc.js": "/precache-manifest.c0e4351831552bcb83e5e548486daabc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d565183c.chunk.css.map": "/static/css/main.d565183c.chunk.css.map",
+    "static/js/2.01737b90.chunk.js.LICENSE.txt": "/static/js/2.01737b90.chunk.js.LICENSE.txt",
+    "static/media/1howto.jpg": "/static/media/1howto.f33a2f8d.jpg",
+    "static/media/2howto.jpg": "/static/media/2howto.5a12f096.jpg",
+    "static/media/3howto.jpg": "/static/media/3howto.fd61da32.jpg",
+    "static/media/covid1.jpg": "/static/media/covid1.d26653e3.jpg",
+    "static/media/quarantini_logo.jpg": "/static/media/quarantini_logo.18611904.jpg",
+    "static/media/sara.jpeg": "/static/media/sara.6bb4245c.jpeg",
+    "static/media/vic.jpeg": "/static/media/vic.41a05dbd.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dc100b8.js",
+    "static/js/2.01737b90.chunk.js",
+    "static/css/main.d565183c.chunk.css",
+    "static/js/main.e0153ded.chunk.js"
+  ]
+}
